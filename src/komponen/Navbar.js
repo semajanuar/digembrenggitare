@@ -6,12 +6,14 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 
 const navigation = [
+
   { name: 'Menu Utama', href: '/', current: false },
   { name: 'Tutorial Pemula', href: 'Tutorial', current: false },
   { name: 'Tutorial Pro', href: 'TutorialPro', current: false },
   { name: 'Chord', href: 'Chord', current: false },
   { name: 'API', href: 'Api', current: false },
 ]
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')

@@ -14,6 +14,7 @@ const Akutenang = lazy(() => import('./Akutenang'));
 const Comingsoon = lazy(() => import('./Comingsoon'));
 const Api = lazy(() => import('./Api'));
 
+
 const App = () => (
 <Router>
   <Suspense fallback={<div>Loading..</div>}>
@@ -30,6 +31,7 @@ const App = () => (
       <Route path="/Akutenang" element={<Akutenang />} />
       <Route path="/Comingsoon" element={<Comingsoon />} />
       <Route path="/Api" element={<Api />} />
+
       
       </Routes>
   </Suspense>
